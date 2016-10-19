@@ -1,7 +1,7 @@
 {
   "name": "electron-angular2-start",
   "version": "0.1.0",
-  "description": "A starting point for an Electron application using Angular 2.0.0",
+  "description": "A starting point for an Electron application using Angular 2",
   "main": "main.js",
   "scripts": {
     "start": "tsc && concurrently \"npm run tsc:w\" \"electron .\" ",
@@ -22,15 +22,15 @@
   "license": "MIT",
   "homepage": "https://github.com/ckbrewer33/electron-angular2-start",
   "dependencies": {
-    "@angular/common": "2.0.0",
-    "@angular/compiler": "2.0.0",
-    "@angular/core": "2.0.0",      
-    "@angular/forms": "2.0.0",
-    "@angular/http": "2.0.0",
-    "@angular/platform-browser": "2.0.0",
-    "@angular/platform-browser-dynamic": "2.0.0",
-    "@angular/router": "3.0.0",
-    "@angular/upgrade": "2.0.0",
+    "@angular/common": "~2.1.0",
+    "@angular/compiler": "~2.1.0",
+    "@angular/core": "~2.1.0",      
+    "@angular/forms": "~2.1.0",
+    "@angular/http": "~2.1.0",
+    "@angular/platform-browser": "~2.1.0",
+    "@angular/platform-browser-dynamic": "~2.1.0",
+    "@angular/router": "~3.1.0",
+    "@angular/upgrade": "~2.1.0",
 
     "core-js": "^2.4.1",
     "reflect-metadata": "^0.1.3",
@@ -41,7 +41,7 @@
   "devDependencies": {
     "concurrently": "^2.2.0",
     "electron": "^1.3.5",
-    "typescript": "^2.0.2",
-    "typings": "^1.3.2"
+    "typescript": "^2.0.3",
+    "typings": "^1.4.0"
   }
 }
