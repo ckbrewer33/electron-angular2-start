@@ -2,6 +2,8 @@ npm-debug.log*
 coverage
 node_modules
 typings
+*.iml
+.idea/
 
 app/**/*.js
 app/**/*.js.map
